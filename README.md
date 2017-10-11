@@ -32,7 +32,11 @@ class Meta has no attribute 'object_class'
     * 接口使用请看alarm/readme
 
 ##安装环境
-
+install mysql
+自己的软件仓库
+配置mysql
+mkdir  /var/lib/mysql/
+ln -s /tmp/mysql.sock  /var/lib/mysql/
 
 
 
