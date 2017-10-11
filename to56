@@ -1,0 +1,8 @@
+cd  domainNameManager/migrations/
+ rm  -rf 000*
+#cd  -
+cd ~/github/python/django/project/mycmdb
+#rsync  -avz  --delete *   root@192.168.30.56:/data/hcmdb/ 
+#rsync  -avz  --delete *   root@192.168.30.109:/data/hcmdb/
+
+rsync  -avz  --delete *   root@192.168.30.112:/data/mycmdb/
