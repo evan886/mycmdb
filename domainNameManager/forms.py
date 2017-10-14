@@ -1,5 +1,6 @@
 #coding: utf-8
 from django import forms
+#domainNameManager app 里面的models 文件 中的 domainName类
 from domainNameManager.models import domainName
 
 class domainForm(forms.ModelForm):

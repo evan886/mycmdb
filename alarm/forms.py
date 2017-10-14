@@ -3,7 +3,7 @@
 #since: 2017-04-10
 
 from django import forms
-from alarm.models import alarm
+from hide_alarm.models import alarm
 
 wayChoices = (
     ('sms', u'SMS'),

@@ -3,7 +3,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 from tastypie.api import Api
-from alarm.api import *
+from hide_alarm.api import *
 
 v1_api = Api(api_name='v1')
 v1_api.register(alarmApi())
@@ -17,7 +17,7 @@ urlpatterns = [
     #用户管理
     url(r'accounts/', include('accounts.urls')),
 
-    #服务器
+    #资产管理 服务器
     url(r'assets/', include('assets.urls')),
     
     #配置管理
@@ -29,6 +29,7 @@ urlpatterns = [
     #域名管理
     url(r'domainNameManager/', include('domainNameManager.urls')),
 
+    #告警管理
     url(r'alarm/',include('alarm.urls')),
     
     url(r'^api/', include(v1_api.urls)),

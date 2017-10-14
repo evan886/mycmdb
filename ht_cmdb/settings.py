@@ -39,6 +39,7 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -59,6 +60,8 @@ INSTALLED_APPS = (
     'tastypie',
     'menuAuth',
 )
+
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -115,9 +118,6 @@ DATABASES = {
 #        'NAME': 'hcmdb',
 #        'USER': 'HCmdbAdmin', 
 #        'PASSWORD': 'nDrDyXd#dnoMqH2',
-
-# Internationalization
-# https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 LANGUAGE_CODE = 'zh-hans'
 

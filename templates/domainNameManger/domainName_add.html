@@ -48,7 +48,7 @@
                 {% csrf_token %}
 
                    {{ df.name|bootstrap_horizontal }}
-<!-- evan  这个df 是哪来的呢-->
+<!-- evan  这个df 是哪来的呢  在views.py 里面过来的 -->
                     <div class="hr-line-dashed"></div>
                     {{df.nameDistributor|bootstrap_horizontal }} <!-- nameDistributor 为models.py 的字段哦  -->
 
@@ -81,7 +81,7 @@
 
 
 <script type="text/javascript">
-/*  20171010 注释掉的      
+/*  20171010 注释掉的       */
     $(document).ready(function(){
         //$("form").submit(function(e){
         $("#bu").bind("click",function(){
@@ -96,7 +96,7 @@
                 }
             $(".splash").fadeOut(300);
             },"json");
-            //倒计时
+            //倒计时 3 second
             var t = $("#bu").text();
             var s = 3;
             $("#bu").prop("disabled",true).text(s+"s")
@@ -112,7 +112,7 @@
             ///倒计时end
         });
     });
-*/
+
 </script>
 
 

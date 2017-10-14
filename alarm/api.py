@@ -5,7 +5,7 @@
 from tastypie.resources import ModelResource
 from tastypie.authentication import ApiKeyAuthentication
 
-from alarm.models import alarm
+from hide_alarm.models import alarm
 from lib.send import sendEmail
 
 def send(group,level,message):

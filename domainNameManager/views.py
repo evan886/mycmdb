@@ -8,7 +8,6 @@ FileName: views.py
      History:
 ============================================================================
 """
-
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.http import HttpResponse
@@ -16,12 +15,12 @@ from django.contrib.auth.decorators import login_required
 from models import domainName
 from forms import domainForm
 
-
 from lib.lib import pages
 
 import json
 import urllib2
 import time
+
 
 def updateInfo(dName):
     post_url = 'http://api.freedomainapi.com/?r=whois&apikey=be44837ce806eb803e4b55a433cef288&domain=%s' % dName
@@ -69,6 +68,7 @@ def updateInfo(dName):
 @login_required
 def domainName_add(request):
     listOrAddTag = ['domainName','domainNameManager','domainNameAdd']
+    #domainForm() 来自己forms 的类 20171010
     df = domainForm()
     if request.method == 'POST':
         emg = ''
@@ -83,7 +83,8 @@ def domainName_add(request):
             smg = u'域名%s添加成功!' % DName
             if not updateInfo(DName):
                 emg = u'获取信息失败!'
-        return HttpResponse(json.dumps({'emg':emg, 'smg':smg}))
+        return HttpResponse(json.dumps({'smg':smg},ensure_ascii=False,indent=2))
+        #return HttpResponse(json.dumps({'emg': emg, 'smg': smg}, ensure_ascii=False, indent=2))
     return render_to_response('domainNameManger/domainName_add.html', locals(), context_instance=RequestContext(request))
 
 
