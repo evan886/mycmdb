@@ -8,7 +8,7 @@ class domainForm(forms.ModelForm):
         model = domainName
         #fields = ('name', 'nameDistributor','exptresDate','user','email','organization','availabity',)
         #fields = ['group', 'server_type', 'ip', 'intraip', 'other_ip', 'port', 'is_monitoring', 'is_backup', 'config','app_name', 'role_name', 'editor']
-        fields = ['name', 'nameDistributor', 'exptresDate', 'user', 'email', 'organization'] #有一次是这个有个 , 出错
+        #fields = ['name', 'nameDistributor', 'exptresDate', 'user','password','ssltype','sslcost','sslexptresDate',  'email', 'organization'] #有一次是这个有个 , 出错
+        fields = ['name', 'nameDistributor', 'exptresDate', 'user', 'password', 'email', 'organization'] #20171017
         #fields = ['name', 'nameDistributor', 'exptresDate', 'user', 'email', 'organization', 'availabity']
-        #fields = ['name', 'nameDistributor', 'exptresDate', 'user', 'email', 'organization']
         #fields = ('name',)  #bak  原来 是元组 改为列表 就好了 20171010

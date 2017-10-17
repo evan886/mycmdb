@@ -1,6 +1,4 @@
-cd  /home/evan/github/mycmdb/domainNameManager/
-rm  -rf migrations
-cd  /home/evan/github/mycmdb/assets/
+cd  /home/evan/github/mycmdb/domainNameManager/migrations/
 rm  -rf migrations
 #cd  -
 cd /home/evan/github/mycmdb

@@ -3,7 +3,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 from tastypie.api import Api
-from hide_alarm.api import *
+from alarm.api import *
 
 v1_api = Api(api_name='v1')
 v1_api.register(alarmApi())

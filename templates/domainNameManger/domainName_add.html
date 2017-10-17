@@ -57,6 +57,16 @@
 
                     <div class="hr-line-dashed"></div>
                     {{df.user|bootstrap_horizontal }}
+                    <div class="hr-line-dashed"></div>
+
+
+
+ {%comment%}                       {{df.password|bootstrap_horizontal }} {%endcomment%}
+
+
+                    <div class="hr-line-dashed"></div>
+{%comment%}                    {{df.ssltype|bootstrap_horizontal }} {%endcomment%}
+
 
                     <div class="hr-line-dashed"></div>
                     {{df.email|bootstrap_horizontal }}
@@ -81,7 +91,7 @@
 
 
 <script type="text/javascript">
-/*  20171010 注释掉的       */
+
     $(document).ready(function(){
         //$("form").submit(function(e){
         $("#bu").bind("click",function(){

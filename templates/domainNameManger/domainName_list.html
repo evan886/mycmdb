@@ -47,6 +47,11 @@
                             <th class="text-center">域名供应商</th>
                             <th class="text-center">到期时间</th>
                             <th class="text-center">注册用户</th>
+                            <th class="text-center">用户密码</th>
+                            <th class="text-center">SSL证书类型</th>
+                            <th class="text-center">SSL证书费用</th>
+                            <th class="text-center">SSL证书到期时间</th>
+
                             <th class="text-center">注册邮箱</th>
                             <th class="text-center">注册公司</th>
                             <th class="text-center">操作</th>
@@ -59,6 +64,12 @@
                                 <td class="text-center">{{ i.nameDistributor }}</td>
                                 <td class="text-center">{{ i.exptresDate }}</td>
                                 <td class="text-center">{{ i.user }}</td>
+
+                                <td class="text-center">{{ i.password }}</td>
+                                <td class="text-center">{{ i.ssltype }}</td>
+                                <td class="text-center">{{ i.sslcost }}</td>
+                                <td class="text-center">{{ i.sslexptresDate }}</td>
+
                                 <td class="text-center">{{ i.email }}</td>
                                 <td class="text-center">{{ i.organization }}</td>
                                 <td class="text-center">
