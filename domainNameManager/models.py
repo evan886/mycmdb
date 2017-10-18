@@ -2,11 +2,10 @@
 
 from django.db import models
 """
+look this  20171018am
 密码
 SSL证书类型  credential type 
-
 证书费用
-
 证书到期时间
 """
 # Create your models here. 用户密码') #add
@@ -31,6 +30,8 @@ class domainName(models.Model):
         return self.name
 
     class Meta:
+        #指定自定义数据库表名
         db_table = 'domainName'
+        #两个字段保持唯一性时使用
         unique_together = (('name', 'availabity'),)
         #unique_together = (('name', 'nameDistributor ', 'exptresDate', 'user', 'email', 'organization',   'availabity'),)

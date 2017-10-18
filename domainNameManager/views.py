@@ -83,6 +83,8 @@ def domainName_add(request):
             smg = u'域名%s添加成功!' % DName
             if not updateInfo(DName):
                 emg = u'获取信息失败!'
+
+        #return HttpResponse(json.dumps({'emg': emg, 'smg': smg, }))
         return HttpResponse(json.dumps({'smg':smg},ensure_ascii=False,indent=2))
         #return HttpResponse(json.dumps({'emg': emg, 'smg': smg, }))
         #return HttpResponse(json.dumps({'emg': emg, 'smg': smg}, ensure_ascii=False, indent=2))

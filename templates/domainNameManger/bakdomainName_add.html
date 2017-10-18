@@ -47,8 +47,33 @@
                 <form class="form-horizontal" action="" id="host_add"  method="post" name="horizontal" role="form" autocomplete="off">
                 {% csrf_token %}
                     {{ df|bootstrap_horizontal }}
+ {%comment%}
+                    {{ df.name|bootstrap_horizontal }}
+<!-- evan  这个df 是哪来的呢  在views.py 里面过来的 -->
+                    <div class="hr-line-dashed"></div>
+                    {{df.nameDistributor|bootstrap_horizontal }} <!-- nameDistributor 为models.py 的字段哦  -->
+
+                    <div class="hr-line-dashed"></div>
+                    {{df.exptresDate|bootstrap_horizontal }}
+
+                    <div class="hr-line-dashed"></div>
+                    {{df.user|bootstrap_horizontal }}
+
+                    <div class="hr-line-dashed"></div>
+                    {{df.password|bootstrap_horizontal }}
+
+                    <div class="hr-line-dashed"></div>
+                     {{df.ssltype|bootstrap_horizontal }}
+
+                    <div class="hr-line-dashed"></div>
+{%comment%}                    {{df.ssltype|bootstrap_horizontal }} {%endcomment%}
 
 
+                    <div class="hr-line-dashed"></div>
+                    {{df.email|bootstrap_horizontal }}
+
+                    <div class="hr-line-dashed"></div>
+                    {{df.organization|bootstrap_horizontal }}
 
 <!-- evan-->
                     <div class="hr-line-dashed"></div>
