@@ -1,0 +1,5 @@
+http://19200.168.30.112
+use dkm
+password dkm123456
+
+

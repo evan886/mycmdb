@@ -28,7 +28,7 @@ class asset(models.Model):
     server_type = models.CharField(max_length=30, choices=ASSET_TYPE, verbose_name=u'设备类型')
     ip = models.CharField(max_length=32, verbose_name=u'公网IP')
     #ip = models.CharField(max_length=32, verbose_name=u'管理IP')
-    intraip = models.CharField(max_length=32, verbose_name=u'内网IP')
+    intraip = models.CharField(max_length=50, verbose_name=u'内网IP')
     other_ip = models.CharField(max_length=255, blank=True, null=True, verbose_name=u'其他IP')
     port = models.IntegerField(default=22, verbose_name=u'端口号')
     is_monitoring = models.BooleanField(default=True, verbose_name=u'是否监控')

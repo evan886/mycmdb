@@ -1,0 +1,12 @@
+cd  /home/evan/github/mycmdb/domainNameManager/
+rm  -rf migrations
+cd  /home/evan/github/mycmdb/assets/
+rm  -rf migrations
+#cd  -
+cd /home/evan/github/mycmdb
+#rsync  -avz   /home/evan/github/mycmdb/   --delete    root@192.168.30.112:/data/mycmdb/ 
+rsync  -avz   /home/evan/github/mycmdb/  --delete       root@192.168.30.112:/data/mycmdb/ 
+#rsync  -avz   /home/evan/github/mycmdb/ --delete        root@192.168.30.113:/data/mycmdb/ 
+#rsync  -avz  --delete *   root@192.168.30.56:/data/hcmdb/ 
+#rsync  -avz  --delete *   root@192.168.30.109:/data/hcmdb/ 
+#rsync  -avz  --delete *   root@192.168.30.112:/data/mycmdb/ 

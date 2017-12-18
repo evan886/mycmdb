@@ -2,12 +2,292 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a1f7cf6-84b3-45db-8a32-11e262657d56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/domainNameManger/bakdomainName_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domainNameManager/forms.py" afterPath="$PROJECT_DIR$/domainNameManager/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domainNameManager/models.py" afterPath="$PROJECT_DIR$/domainNameManager/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domainNameManager/views.py" afterPath="$PROJECT_DIR$/domainNameManager/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/domainNameManger/domainName_add.html" afterPath="$PROJECT_DIR$/templates/domainNameManger/domainName_add.html" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/bakviews.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/201709domainNameManager/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/api.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/readme" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/alarm/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/co" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configManager/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dashboard/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dashboard/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dashboard/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dashboard/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dashboard/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/domainNameManager/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/domainNameManager/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/domainNameManager/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/domainNameManager/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/domainNameManager/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/domainNameManager/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hcmdb20170926.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ht_cmdb/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ht_cmdb/settings.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ht_cmdb/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ht_cmdb/wsgi.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/init.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/check_domainName.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/export_excel.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/id_rsa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/lib.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/send.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/templatetags/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/templatetags/business_tag.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/loginsn.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manage.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/menuAuth/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/admin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/forms.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/migrations/0001_initial.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/migrations/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/tests.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-timepicker.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/colorbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/from_cs/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/from_cs/images/validator_default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/from_cs/images/validator_simple.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/from_cs/jquery.validator.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/congruent_pentagon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/header-profile-skin-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/header-profile-skin-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/header-profile-skin-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/header-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/otis_redding.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/shattered.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/patterns/triangular.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/iCheck/custom.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/iCheck/green.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/iCheck/green@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/hue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/bootstrap-colorpicker/saturation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/sort.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/sort_asc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/sort_desc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-flat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-flat2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-nice.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/sprite-skin-simple.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/spritemap.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/images/spritemap@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/summernote/summernote-bs3.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/plugins/summernote/summernote.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/1_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/1_open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/diy/9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/line_conn.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/zTreeStandard.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/img/zTreeStandard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/css/ztree/zTreeStyle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/core.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/fixed-width.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/icons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/larger.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/list.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/path.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/spinning.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/stacked.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_larger.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_path.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/a4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/a7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo1.pngbak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/profile_small.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/profile_small.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/demo/peity-demo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/echarts/echarts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/from_js/jquery.validVal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/from_js/zh_CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/fun.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/inspinia.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-2.1.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-ui-1.10.4.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-ui.custom.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.colorbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.cookie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/pace/pace.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/peity/jquery.peity.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/slimscroll/jquery.slimscroll.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/summernote/summernote.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/ztree/jquery.ztree.all-3.5.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/ztree/jquery.ztree.core-3.5.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/ztree/jquery.ztree.excheck-3.5.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/ztree/jquery.ztree.exedit-3.5.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/ztree/jquery.ztree.exhide-3.5.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/extend/layer.ext.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/layer.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/icon_ext.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/textbg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/xubox_ico0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/xubox_loading0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/xubox_loading1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/xubox_loading2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/xubox_loading3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/default/xubox_title0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/layer.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/layer/skin/layer.ext.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/2017domainNameManger/bakdomainName_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/2017domainNameManger/domainName_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/2017domainNameManger/domainName_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/auth.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/deptAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/deptEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/deptList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/editPassword.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/newPassword.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/resetPassword.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/userAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/userEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/userList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alarm/alarmAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alarm/alarmEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alarm/alarmList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/download.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/host_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/host_add_roles.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/host_detail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/host_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/host_edit_roles.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/host_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/host_search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/idc_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/idc_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/idc_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/paginator.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/paginator.html.bak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/auto/erlangUpdate.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bakdomainNameManger/domainName_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bakdomainNameManger/domainName_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/config/config_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/config/config_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/config/config_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/default/base.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/domainNameManger/bakdomainName_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/domainNameManger/domainName_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/domainNameManger/domainName_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/link_css.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/listOrAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/menuAuth/menuAdminAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/menuAuth/menuAdminEdit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/menuAuth/menuAdminList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nav.html.bak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nav_bar_header.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nav_li_profile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project/app_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project/app_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project/app_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project/role_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project/role_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project/role_list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/script.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/to112" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.ini" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,74 +296,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domainNameManager/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="142" lean-forward="false" selection-start-line="8" selection-start-column="142" selection-end-line="8" selection-end-column="142" />
-              <folding>
-                <element signature="e#15#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domainNameManager/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginsn.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginsn.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="domainName_add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/domainNameManger/domainName_add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/domainNameManager/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-              <folding>
-                <element signature="e#620#2316#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,132 +356,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domainNameManger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ht_cmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domainNameManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mycmdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,6 +451,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4a1f7cf6-84b3-45db-8a32-11e262657d56" name="Default" comment="" />
@@ -373,24 +467,34 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15117522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15067779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37381205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22698073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15117522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -401,355 +505,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/profile_small.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/profile_small.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/logo1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/a7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/a4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/fun.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/base.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/static/img/profile_small.png" />
+    <entry file="file://$PROJECT_DIR$/static/img/profile_small.ico" />
+    <entry file="file://$PROJECT_DIR$/static/img/logo1.png" />
+    <entry file="file://$PROJECT_DIR$/static/img/a7.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/img/a4.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/js/fun.js" />
+    <entry file="file://$PROJECT_DIR$/accounts/admin.py" />
     <entry file="file://$PROJECT_DIR$/accounts/tests.py" />
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3230">
-          <caret line="80" column="73" lean-forward="false" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/accounts/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dashboard/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2958">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/project/role_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listOrAdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nav_li_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/project/app_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py" />
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py" />
+    <entry file="file://$PROJECT_DIR$/templates/accounts/login.html" />
+    <entry file="file://$PROJECT_DIR$/templates/dashboard/index.html" />
+    <entry file="file://$PROJECT_DIR$/templates/project/role_list.html" />
+    <entry file="file://$PROJECT_DIR$/templates/footer.html" />
+    <entry file="file://$PROJECT_DIR$/templates/listOrAdd.html" />
+    <entry file="file://$PROJECT_DIR$/templates/nav_li_profile.html" />
+    <entry file="file://$PROJECT_DIR$/templates/project/app_list.html" />
+    <entry file="file://$PROJECT_DIR$/alarm/admin.py" />
+    <entry file="file://$PROJECT_DIR$/alarm/readme" />
     <entry file="file://$PROJECT_DIR$/alarm/tests.py" />
-    <entry file="file://$PROJECT_DIR$/menuAuth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ht_cmdb/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menuAuth/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3009">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ht_cmdb/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="44" column="15" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/domainName_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="111" column="22" lean-forward="false" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/domainName_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="70" column="75" lean-forward="false" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201709domainNameManager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="97" column="77" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ht_cmdb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ht_cmdb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domainNameManager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domainNameManager/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domainNameManager/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/bakdomainName_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domainNameManager/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginsn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domainNameManager/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="142" lean-forward="false" selection-start-line="8" selection-start-column="142" selection-end-line="8" selection-end-column="142" />
-          <folding>
-            <element signature="e#15#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/domainName_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domainNameManager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding>
-            <element signature="e#620#2316#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/menuAuth/forms.py" />
+    <entry file="file://$PROJECT_DIR$/project/forms.py" />
+    <entry file="file://$PROJECT_DIR$/templates/nav.html" />
+    <entry file="file://$PROJECT_DIR$/ht_cmdb/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/templates/default/base.html" />
+    <entry file="file://$PROJECT_DIR$/menuAuth/admin.py" />
+    <entry file="file://$PROJECT_DIR$/assets/views.py" />
+    <entry file="file://$PROJECT_DIR$/ht_cmdb/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/alarm/api.py" />
+    <entry file="file://$PROJECT_DIR$/assets/models.py" />
+    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/domainName_list.html" />
+    <entry file="file://$PROJECT_DIR$/alarm/models.py" />
+    <entry file="file://$PROJECT_DIR$/alarm/forms.py" />
+    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/domainName_list.html" />
+    <entry file="file://$PROJECT_DIR$/alarm/views.py" />
+    <entry file="file://$PROJECT_DIR$/201709domainNameManager/views.py" />
+    <entry file="file://$PROJECT_DIR$/ht_cmdb/urls.py" />
+    <entry file="file://$PROJECT_DIR$/assets/forms.py" />
+    <entry file="file://$PROJECT_DIR$/ht_cmdb/settings.py" />
+    <entry file="file://$PROJECT_DIR$/domainNameManager/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/domainNameManager/admin.py" />
+    <entry file="file://$PROJECT_DIR$/domainNameManager/urls.py" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/bakdomainName_add.html" />
+    <entry file="file://$PROJECT_DIR$/domainNameManager/models.py" />
+    <entry file="file://$PROJECT_DIR$/loginsn.txt" />
+    <entry file="file://$PROJECT_DIR$/domainNameManager/forms.py" />
+    <entry file="file://$PROJECT_DIR$/templates/domainNameManger/domainName_add.html" />
+    <entry file="file://$PROJECT_DIR$/domainNameManager/views.py" />
   </component>
 </project>

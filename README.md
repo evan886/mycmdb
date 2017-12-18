@@ -1,4 +1,7 @@
 
+time
+2017 12  15  
+
 http://192.168.30.56
 use dkm
 password dkm123456
@@ -6,6 +9,7 @@ password dkm123456
 
 
 注意  
+这个是在debian上的问题　
 sudo python manage.py  runserver 0.0.0.0:80 运行 可能会 
 AttributeError at /
 class Meta has no attribute 'object_class'
@@ -14,7 +18,7 @@ class Meta has no attribute 'object_class'
 
 
 
-#HCMDB
+#CMDB
 ### 目前拥有功能有：
 ####资产管理
     * 根据不同数据中心(IDC),分类管理
@@ -41,12 +45,10 @@ ln -s /tmp/mysql.sock  /var/lib/mysql/
 
 
 
-
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 
 yum install  python-devel
-
 
 ImportError No module named MySQLdb解决方法
 pip install mysql-python
@@ -58,9 +60,6 @@ Collecting MySQL-python
     sh: mysql_config: 未找到命令
 
 source  /etc/profile #就可以了 哈哈
-
-
-
 
 
 
