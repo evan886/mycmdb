@@ -1,6 +1,9 @@
 暂时用这个 mycmdb2018 是新的 不死加了很多新功能 
 云机器第一个够用
 蓝本就是风行
+https://github.com/voilet/cmdb
+
+
 
 time
 2017 12  15  
