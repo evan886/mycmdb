@@ -12,7 +12,7 @@ http://192.168.30.56
 use dkm
 password dkm123456
 
-
+centos7上一定成功的 
 
 注意  
 这个是在debian上的问题　
@@ -54,6 +54,7 @@ ln -s /tmp/mysql.sock  /var/lib/mysql/
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 
+yum install gcc  -y 
 yum install  python-devel
 
 ImportError No module named MySQLdb解决方法
@@ -87,7 +88,11 @@ python manage.py flush
     * python2.7 manage.py migrate
 
 ####初始化数据  我一般 是导入为自己的
-    mysql -umycmdb -p mycmdb < hcmdb20170926.sql
+#看你自己本地的密码了
+mysql -uroot -p'00000l!q$EWQ23FD23'
+
+
+   mysql -umycmdb -p mycmdb < hcmdb20170926.sql
     #* mysql -uHCmdbAdmin -p hcmdb < init.sql
 
 ##运行 为什么 有一次用 80 和sudo 不行呢 
@@ -103,4 +108,11 @@ python manage.py flush
     raise errorvalue
 django.db.utils.OperationalError: (1005, 'Can\'t create table `hcmdb`.`#sql-19cb_39` (errno: 150 "Foreign key constraint is incorrectly formed")')
 
+
+
+raise ImproperlyConfigured("Error loading MySQLdb module: %s" % e)
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: libmysqlclient.so.20: cannot open shared object file: No such file or directory
+
+#前面是你的真正位置 
+ln -s  /data/apps/mysql/lib/libmysqlclient.so.20   /usr/lib64/
 

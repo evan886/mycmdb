@@ -100,13 +100,13 @@ WSGI_APPLICATION = 'ht_cmdb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hcmdb',
+        'NAME': 'mycmdb',
         'USER': 'root',
         #'USER': 'HCmdbAdmin',
-        'PASSWORD': '',
+        'PASSWORD': 'evan886DKdk****d',
         #'PASSWORD': 'nDrDyXd#dnoMqH2',
-        'USER': 'root',
-        'PASSWORD': '',
+        #'USER': 'root',
+        #'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
     }
